@@ -40,7 +40,7 @@ class Game {
         form.hide();
 
         Player.getPlayerInfo();
-        image(back_img, 0, 0, displayWidth, displayHeight);
+        image(back_img, 0, 0, displayWidth-120, displayHeight);
         var x = displayWidth/2;
         var y = displayHeight/2;
         var index = 0;
